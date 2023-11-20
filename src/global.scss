@@ -1,0 +1,57 @@
+/* App Global CSS */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/* Custom styles for a more visually appealing UI */
+body {
+  font-family: 'Roboto', sans-serif; /* Change the font family as needed */
+  background-color: #3498db; /* Set a blue background color */
+  color: #fff; /* Set text color */
+}
+
+/* Update the color of Ionic components */
+ion-header {
+  background-color: #2980b9; /* Set a slightly darker blue for the header */
+  color: #fff; /* Set text color for the header */
+}
+
+ion-content {
+  background-color: #3498db; /* Use the same blue background color for content */
+}
+
+/* Add a subtle shadow to cards for depth */
+ion-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize buttons for a more modern look */
+ion-button {
+  background-color: #2c3e50; /* Set a dark blue color for buttons */
+  color: #fff; /* Set text color for buttons */
+  border-radius: 8px; /* Add rounded corners to buttons */
+}
+
+/* Customize the appearance of input fields */
+ion-input {
+  border-radius: 8px;
+  border: 1px solid #2980b9; /* Set a border color similar to the header */
+  padding: 8px;
+  color: #fff; /* Set text color for input fields */
+}
+
+/* Customize other components as needed */
+/* ... */
